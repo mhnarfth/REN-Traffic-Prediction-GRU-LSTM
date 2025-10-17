@@ -1,8 +1,5 @@
 # REN Traffic Prediction using Ensemble GRU-LSTM
 
-[
-[
-
 ## Overview
 
 This repository implements traffic forecasting for Research and Education Networks (RENs) using real-world Internet2 data from Atlanta and Dallas routers. The project includes a hybrid GRU-LSTM model with multi-step forecasting capabilities (1, 2, 5, and 10 steps ahead) and anomaly detection using Isolation Forest and LOF.
@@ -102,12 +99,16 @@ file_path = 'data/combined_router_dallas_atla_data.parquet'
 ## Citation
 
 ```bibtex
-@article{shariff2024traffic,
-  title={Traffic Prediction for Research and Education Networks using an Ensemble GRU-LSTM with Varying Lead Times},
+@INPROCEEDINGS{11162466,
   author={Shariff, Mohammad Arafath Uddin and Karanam, Venkat Sai Suman Lamba and Ramamurthy, Byrav},
-  institution={University of Nebraska-Lincoln},
-  year={2024}
-}
+  booktitle={2025 IEEE International Conference on Communications Workshops (ICC Workshops)}, 
+  title={Traffic Prediction for Research and Education Networks using an Ensemble GRU-LSTM with Varying Lead Times}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1676-1681},
+  keywords={Wide area networks;Conferences;Telecommunication traffic;Predictive models;Traffic control;Robustness;Forecasting;Surges;Long short term memory;Anomaly detection;Internet2;Network Traffic Analysis;Anomaly Detection;Machine Learning;LSTM;GRU;Prophet;Isolation Forest},
+  doi={10.1109/ICCWorkshops67674.2025.11162466}}
 ```
 
 
